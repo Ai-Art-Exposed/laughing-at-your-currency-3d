@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family:
+    monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#canvas-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+#info {
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  padding: 5px 20px;
+  background: #000;
+  text-align: right;
+
+  h2 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
